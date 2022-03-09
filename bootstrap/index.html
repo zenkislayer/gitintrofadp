@@ -3,13 +3,111 @@
 <head>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Empresa FADP</title>
 </head>
-<body>
+<body class="p-3 mb-2 bg-secondary text-white">
+
+    <!--Menu inicio-->
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="css/Monogram.jpg" alt="" width="30" height="30" class="d-inline-block align-text-top">
+            cherrera
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Diseños</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Quienes somos?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">FAQ</a>
+                  </li>
+                </ul>
+          </a>
+        </div>
+      </nav>
+    <!--Fin de menu inicio-->
+
+    <div class="container">
+        <div class="p-3"></div>
+        <div class="display-1 text-center">Bienvenidos</div>
+        <blockquote class="blockquote">
+            <p>Bienvenidos a mi tienda, aqui podras encontrar mis diseños los cuales podras adquirir en  diferentes formatos para que puedas lucir de la mejor manera!</p>
+          </blockquote>
+          <div class="p-3"></div>
+          <hr>
+        
+        <!--Elementos destacados-->
+        <h3>
+          <p class="text-center text-danger text-opacity-50 bg-light bg-opacity-50">PRODUCTOS DESTACADOS</p>
+       </h3>
+       <div class="p-3"></div>
+        <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="css/love.jpg" class="mx-auto d-block w-50" alt="love">
+              </div>
+              <div class="carousel-item">
+                <img src="css/kob.jpg" class="mx-auto d-block w-50" alt="kob">
+              </div>
+              <div class="carousel-item">
+                <img src="css/luci.jpg" class="mx-auto d-block w-50" alt="luci">
+              </div>
+              <div class="carousel-item">
+                  <img src="css/rey.jpg" class="mx-auto d-block w-50" alt="rey">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <!--fin de elementos destacados-->
+        <hr>
+        <div class="p-3"></div>
+     <!--link a redes-->
+     <h2>
+        <p class="text-center">Siguenos en nuestras redes sociales!</p>
+     </h2>
+     <div class="p-3"></div>
+     <a href="https://www.redbubble.com/es/people/ch0058046/" target="_blank">
+         <div class="float-start d-block w-50 container-fluid" type="button" >
+            <img src="css/redb.png" class="img-fluid rounded" alt="rb">
+            
+         </div>
+     </a>
+     <a href="https://www.instagram.com/z3nkislay3r/" target="_blank">
+        <div class="float-end d-block w-50 container-fluid" type="button" >
+           <img src="css/ig.png" class="img-fluid rounded" alt="ig">
+           
+        </div>
+    </a>
+              
+     <!--fin link a redes-->
+     
     
-    <script src="js/bootstrap.min.js"></script>
+    </div>
+
+     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
