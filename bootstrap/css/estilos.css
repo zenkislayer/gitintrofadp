@@ -1,11 +1,4 @@
-.caja{
-    border: solid round;
-    margin: auto;
-    width: 50%;
-    height: 50%; 
-}
-
-.caja .logo{
-    border-radius: 2em;
-    box-shadow: 0 0 0.5em rgba(0 , 0, 0, 15);
+.row div[class^="col"]{
+    background: pink;
+    border: solid red;
 }
