@@ -1,0 +1,13 @@
+.fila{
+    display: flex;
+    justify-content: center;
+    }
+    .fila div{
+        width: 30%;
+        /* border: solid; */
+        display: flex;
+        justify-content: center;
+    }
+    .fila div img{
+        max-width: 100px;
+    }
